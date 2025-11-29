@@ -1,0 +1,14 @@
+{
+  "name": "qc-discord-bot",
+  "version": "1.0.0",
+  "description": "QC photo fetcher bot for Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "14.13.0",
+    "axios": "1.6.8",
+    "express": "4.19.2"
+  }
+}
