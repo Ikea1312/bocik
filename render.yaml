@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: qc-discord-bot
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
